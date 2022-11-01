@@ -1,0 +1,18 @@
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#nav-icons{
+    display: flex;
+}
+
+
+.icon > img{
+    margin: 0 20px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
