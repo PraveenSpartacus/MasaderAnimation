@@ -14,6 +14,38 @@
 
 /* colors */
 
+:root{
+    --card-dark: #1A1A1A;
+    --card-light: hsla(185, 100%, 32%, 0.107);
+    --page-bg-light: #e7e7e7;
+    --page-bg-dark: #121212;
+    --nav-icon-light: black;
+    --nav-icon-dark: #A9A9A9;
+    --black: black;
+    --white: white;
+    --green-dark: #00ff00;
+    --green-light: #00d500;
+}
+
+
+body{
+    --page-bg: var(--page-bg-dark);
+    --card-color: var(--card-dark);
+    --nav-icon-color: var(--nav-icon-dark);
+    --black-white: var(--white);
+    --green: var(--green-dark)
+}
+
+body.light-mode{
+    --page-bg: var(--page-bg-light);
+    --card-color: var(--card-light);
+    --nav-icon-color: var(--nav-icon-light);
+    --black-white: var(--black);
+    --green: var(--green-light)
+    
+}
+
+
 .main-theme-1{
     color: #0094A1;
 }
@@ -23,9 +55,9 @@
 }
 
 .green{
-    color: #00ff00;
+    color: var(--green);
 }
 
 .white{
-    color: #ffffff;
+    color: var(--black-white);
 }

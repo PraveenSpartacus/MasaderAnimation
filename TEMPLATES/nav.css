@@ -10,9 +10,13 @@
 }
 
 
-.icon > img{
+.icon > svg{
     margin: 0 20px;
     width: 22px;
     height: 22px;
     cursor: pointer;
+}
+
+.icon > svg path{
+    fill: var(--nav-icon-color);
 }
